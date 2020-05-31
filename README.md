@@ -16,6 +16,8 @@ rep_val: reward needed for reproduction. I.e. if rep_val=0.5: having reward of 1
 
 
 ## Remarks
-rep_val win  
-more than resouc  
-save  
+All values in "win" should be a multiple of "rep_val".  
+If there are more than two times the amount of individuals than food sources, i.e. some individuals will not be able to get a spot, then this individuals will die.
+
+## Plots
+The save the plot uncomment the corresponding lines in plot_data function.
