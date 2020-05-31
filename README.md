@@ -1,9 +1,9 @@
 # evolutionary-game-theory
 
 ## Requirements:
-python >= 3.6 \\
-numpy \\
-matplotlib \\
+python >= 3.6  
+numpy  
+matplotlib   
 
 ## Explanation of variables:
 num_res: number of foodsources
@@ -16,6 +16,6 @@ rep_val: reward needed for reproduction. I.e. if rep_val=0.5: having reward of 1
 
 
 ## Remarks
-rep_val win
-more than resouc
-save
+rep_val win  
+more than resouc  
+save  
