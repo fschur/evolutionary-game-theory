@@ -1,9 +1,9 @@
 # evolutionary-game-theory
 
 ## Requirements:
-python >= 3.6
-numpy
-matplotlib
+python >= 3.6 \\
+numpy \\
+matplotlib \\
 
 ## Explanation of variables:
 num_res: number of foodsources
