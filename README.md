@@ -8,9 +8,9 @@ matplotlib
 ## Explanation of variables:
 num_res: number of foodsources
 
-win: describes the game-table as a python dictionary: First entry is the reward when playing against the same kind of individual (dove, dove; hawk,hawk), second is the reward if playing against the opposing kind of individual, last entry is the reward for arriving at a food-resource alone.
+win: the payoff matrix.
 
-population: starting population. Denote hawk by [0,1], dove by [1, 0] and a mixed strategy that plays hawk with probability p and dove with probability 1-p by [1-p, p] 
+population: starting population. Denote hawk by [1], dove by [2] and a mixed strategy that plays hawk with probability p and dove with probability 1-p by [1-p, p].
 
 rep_val: reward needed for reproduction. I.e. if rep_val=0.5: having reward of 1 keeps me alive (0.5) and allows me the reproduce once (additional 0.5).
 
